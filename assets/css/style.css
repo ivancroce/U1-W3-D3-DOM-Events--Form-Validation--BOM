@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to right, rgb(35, 0, 92), rgb(128, 5, 128));
+  padding-top: 5rem;
+}
+
+.to-do-app img {
+  display: inline-block;
+  width: 100px;
+  margin-left: 10px;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 48px;
+  color: #7e57c2;
+}
+
+.to-do-app {
+  width: 100%;
+  max-width: 800px;
+  background: white;
+  margin: 2rem auto 1rem;
+  padding: 1rem;
+  border-radius: 20px;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.form-box {
+  width: max-content;
+  margin-inline: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#input-box {
+  width: 350px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid#7e57c2;
+}
+
+#addBtn {
+  padding: 10px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background-color: #7e57c2;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#tasklist {
+  list-style-type: none;
+}
