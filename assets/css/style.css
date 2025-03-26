@@ -62,6 +62,18 @@ h1 {
   border-radius: 20px;
 }
 
-#tasklist {
+ul {
   list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: lightgrey;
+  margin-bottom: 3px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.strike {
+  text-decoration: line-through;
 }
