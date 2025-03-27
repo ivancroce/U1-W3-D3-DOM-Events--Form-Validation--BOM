@@ -10,14 +10,14 @@
 .container {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(to right, rgb(35, 0, 92), rgb(128, 5, 128));
+  background: rgb(77, 38, 84);
+  background: linear-gradient(117deg, rgba(77, 38, 84, 1) 0%, rgba(41, 26, 74, 1) 30%, rgba(41, 26, 74, 1) 70%, rgba(77, 38, 84, 1) 100%);
   padding-top: 5rem;
 }
 
 .to-do-app img {
   display: inline-block;
   width: 100px;
-  margin-left: 10px;
 }
 
 h1 {
@@ -45,7 +45,7 @@ h1 {
 }
 
 #input-box {
-  width: 350px;
+  width: 500px;
   padding: 10px;
   border-radius: 20px;
   border: 2px solid#7e57c2;
@@ -53,13 +53,14 @@ h1 {
 
 #addBtn {
   padding: 10px;
+  width: 40px;
   height: 40px;
   font-size: 16px;
   border: none;
   background-color: #7e57c2;
   color: white;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 ul {
@@ -68,12 +69,20 @@ ul {
 }
 
 li {
-  background-color: lightgrey;
+  background-color: #7e57c2;
   margin-bottom: 3px;
   padding: 0.5rem;
   cursor: pointer;
+  border-radius: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 .strike {
   text-decoration: line-through;
+}
+
+li button {
+  margin-left: 10px;
+  cursor: pointer;
 }
